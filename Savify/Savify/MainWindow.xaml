@@ -1,0 +1,100 @@
+﻿<Window x:Class="Savify.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Savify"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None" Background="{x:Null}" AllowsTransparency="True">
+
+    <!--Main Window-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+
+        <!--Top Bar-->
+        <StackPanel x:Name="TopBar" Grid.Row="0" Background="#FF0F0F0F" Orientation="Horizontal" FlowDirection="RightToLeft" MouseDown="TopBar_MouseDown">
+            <Label Content="🗙" Foreground="White" VerticalContentAlignment="Top" FontWeight="Bold"/>
+            <Label Content="─" Foreground="White" VerticalContentAlignment="Top" FontWeight="Bold"/>
+            <Label Content="□" Foreground="White" VerticalContentAlignment="Top" FontWeight="Bold"/>
+            <Label Content="☰" Foreground="White" VerticalContentAlignment="Top" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!--Middle Content: Left Bar and List Viewer-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Left Bar-->
+            <Grid Grid.Row="0" Background="#FF0F0F0F">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+
+                <!--Menu-->
+                <Grid Grid.Row="0">
+                    <ScrollViewer>
+
+                    </ScrollViewer>
+                </Grid>
+
+                <!--Add List-->
+                <Grid Grid.Row="1">
+
+                </Grid>
+            </Grid>
+
+            <!--List Viewer-->
+            <Grid Grid.Column="1" Background="#FF282828">
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="120"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!--Header-->
+                        <Grid Grid.Row="0">
+
+                        </Grid>
+
+                        <!--List-->
+                        <StackPanel Grid.Row="1" Orientation="Vertical">
+                            <local:SongInfo Height="20"/>
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <!--Bottm Statys Bar: Download Progress-->
+        <Grid Grid.Row="2" Background="#FF323232">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Now Downloading-->
+            <Grid Grid.Column="0">
+
+            </Grid>
+
+            <!--Progress Bar-->
+            <Grid Grid.Column="1">
+
+            </Grid>
+
+            <!--Settings-->
+            <Grid Grid.Column="2">
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
