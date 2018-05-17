@@ -1,0 +1,12 @@
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Savify.Core.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Savify.Core.pdb
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\SpotifyAPI.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\SpotifyAPI.xml
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.csprojAssemblyReference.cache
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.csproj.CoreCompileInputs.cache
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.csproj.CopyComplete
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.pdb
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Savify.Core.dll.config

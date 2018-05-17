@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savify", "Savify\Savify.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savify.Core", "Savify.Core\Savify.Core.csproj", "{76922F7E-A449-4B70-90CB-D675829B3D96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Savify.Debug", "Savify.Debug\Savify.Debug.csproj", "{B0DFAD69-4579-421F-8236-A0EC2F990D42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{76922F7E-A449-4B70-90CB-D675829B3D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76922F7E-A449-4B70-90CB-D675829B3D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76922F7E-A449-4B70-90CB-D675829B3D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DFAD69-4579-421F-8236-A0EC2F990D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DFAD69-4579-421F-8236-A0EC2F990D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DFAD69-4579-421F-8236-A0EC2F990D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DFAD69-4579-421F-8236-A0EC2F990D42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

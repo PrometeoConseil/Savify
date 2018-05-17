@@ -105,7 +105,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Savify.Core\Savify.Core.csproj">
+      <Project>{76922f7e-a449-4b70-90cb-d675829b3d96}</Project>
+      <Name>Savify.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\loading.gif" />
   </ItemGroup>

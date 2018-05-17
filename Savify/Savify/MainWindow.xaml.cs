@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Savify.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace Savify
         public MainWindow()
         {
             InitializeComponent();
+            Mp3Downloader audio = new Mp3Downloader("Mad About Bars", "2Bunny", @"D:\");
+            audio.Download();
         }
 
         private void TopBar_MouseDown(object sender, MouseButtonEventArgs e)

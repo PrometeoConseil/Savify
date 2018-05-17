@@ -1,0 +1,13 @@
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Debug.exe.config
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Debug.exe
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Debug.pdb
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Core.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Newtonsoft.Json.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Core.pdb
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Newtonsoft.Json.xml
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.csprojAssemblyReference.cache
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.csproj.CoreCompileInputs.cache
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.csproj.CopyComplete
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.exe
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.pdb
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Core.dll.config
