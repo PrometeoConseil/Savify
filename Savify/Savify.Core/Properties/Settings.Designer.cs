@@ -49,5 +49,14 @@ namespace Savify.Core.Properties {
                 return ((string)(this["Ffmpeg"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("dec8fd36dc344633a19bd166a007df2d")]
+        public string SpotifyClientID {
+            get {
+                return ((string)(this["SpotifyClientID"]));
+            }
+        }
     }
 }

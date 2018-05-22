@@ -10,3 +10,6 @@ D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Co
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.dll
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\obj\Debug\Savify.Core.pdb
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\Savify.Core.dll.config
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\policy.2.0.taglib-sharp.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\taglib-sharp.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Core\bin\Debug\policy.2.0.taglib-sharp.config

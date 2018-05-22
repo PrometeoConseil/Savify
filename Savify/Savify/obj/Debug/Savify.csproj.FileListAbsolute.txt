@@ -43,3 +43,8 @@ D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\obj\Debug\Savify.pdb
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\Savify.Core.dll
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\Savify.Core.pdb
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\Savify.Core.dll.config
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\taglib-sharp.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\SpotifyAPI.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\Newtonsoft.Json.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\SpotifyAPI.xml
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify\bin\Debug\Newtonsoft.Json.xml

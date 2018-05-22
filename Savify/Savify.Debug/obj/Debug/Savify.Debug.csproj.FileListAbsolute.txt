@@ -11,3 +11,6 @@ D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.D
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.exe
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\obj\Debug\Savify.Debug.pdb
 D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\Savify.Core.dll.config
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\taglib-sharp.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\SpotifyAPI.dll
+D:\Users\Laurence\Documents\GitHub\Savify\Savify\Savify.Debug\bin\Debug\SpotifyAPI.xml

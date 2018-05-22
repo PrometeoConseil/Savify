@@ -1,11 +1,6 @@
-﻿using System;
+﻿using Savify.Core;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Savify.Core;
 
 namespace Savify.Debug
 {
@@ -13,8 +8,22 @@ namespace Savify.Debug
     {
         static void Main(string[] args)
         {
-            Mp3Downloader audio = new Mp3Downloader("Inifinity 2008", "Guru Josh", @"D:\", "wav");
-            audio.Download();
+            SpotifyAgent.Auth();
+
+            //Test Playlist
+            //Uri link = new Uri("https://open.spotify.com/user/lozza11111/playlist/66Q0HHtNRqqd6Aw79jfPpA?si=n7hwbprgTQu29SWru9b8cg");
+
+            Uri link = new Uri(@"https://open.spotify.com/album/3h5a97Q165hNExBkutPTTp?si=DU6EeA6IQiiLQ5mRLSOhMA");
+
+            DownloadList newList =  DownloadManager.NewList("Test", new Uri(@"D:\Users\Laurence\Desktop\Testing"));
+            DownloadManager.AddTracksLink(link, newList);
+
+            newList.TrackFormat = Format.mp3;
+            newList.TrackQuality = Quality._320kbps;
+
+            DownloadManager.EnqueueList(newList);
+            DownloadManager.DequeueList(newList);
+            
             Console.ReadLine();
         }
     }

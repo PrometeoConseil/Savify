@@ -11,5 +11,8 @@
     <Setting Name="Ffmpeg" Type="System.String" Scope="Application">
       <Value Profile="(Default)">ffmpeg</Value>
     </Setting>
+    <Setting Name="SpotifyClientID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dec8fd36dc344633a19bd166a007df2d</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
