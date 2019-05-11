@@ -95,7 +95,10 @@ namespace Savify.Core
             foreach (PlaylistTrack track in playlist.Items)
             {
                 string artists = "";
-                track.Track.Artists.ForEach(artist => artists += artist.Name + ",");
+                foreach (var artist in track.Track.Artists)
+                {
+                    artists += (artists.Length > 0 ? ", " : "") + artist.Name;
+                }
                 track.Track.ExternUrls.TryGetValue("spotify", out string link);
 
                 tracks.Add(new Track()
@@ -122,7 +125,10 @@ namespace Savify.Core
             FullTrack track = _spotify.GetTrack(trackId);
 
             string artists = "";
-            track.Artists.ForEach(artist => artists += artist.Name + ",");
+            foreach (var artist in track.Artists)
+            {
+                artists += (artists.Length > 0 ? ", " : "") + artist.Name;
+            }
 
             return new Track()
             {
