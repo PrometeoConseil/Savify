@@ -20,7 +20,7 @@ namespace Savify.Core
         {
             //Set the YouTube search input and the output file name.
             string searchQuery = string.Format("{0} - {1} Audio", track.SongTitle, track.Artists);
-            string outputName = string.Format("{0} - {1}", track.SongTitle, track.Artists);
+            string outputName = string.Format("{0} - {1}", track.SongTitle, track.Artists).ToFilePathSafeString();
             string fullPath = string.Format(@"{0}\{1}", outputFolder.LocalPath, outputName);
 
             //Checks for the required binaries (youtube-dl.exe and ffmpeg.exe).

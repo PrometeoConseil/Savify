@@ -1,5 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Text.RegularExpressions;
@@ -69,6 +71,11 @@ namespace Savify.Core
             };
             file.Tag.Pictures = new TagLib.IPicture[] { cover };
             file.Save();
+        }
+        public static string ToFilePathSafeString(this string source, char replaceChar = '_')
+        {
+            return Path.GetInvalidFileNameChars().Aggregate(source,
+                (current, invalidFileNameChar) => current.Replace(invalidFileNameChar, replaceChar)).TrimEnd(' ','.');
         }
     }
     
